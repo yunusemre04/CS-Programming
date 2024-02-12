@@ -1,0 +1,13 @@
+﻿string a="326";
+Console.WriteLine(Convert.ToInt32(a));
+Console.Write("please enter your name : ");
+string? name =Console.ReadLine();
+Console.Write("please enter your lastname : ");
+string? lastname=Console.ReadLine();
+Console.Write("please enter your age : ");
+int age=Convert.ToInt32(Console.ReadLine());
+// var age= Console.ReadLine();
+string message= name+" "+lastname+" "+age+" "+ "have been added";
+Console.WriteLine(message);
+string message2= $"{name} {lastname} {age} have been added";
+Console.WriteLine(message2);
